@@ -52,12 +52,12 @@ header {
 }
 
 .form-inline {
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Vertically align items in the form */
+    display: flex; 
+    align-items: center; 
 }
 
 .form-inline .form-control {
-    margin-right: 10px; /* Add spacing between search input and button */
+    margin-right: 10px; 
 }
 
 .hero {
