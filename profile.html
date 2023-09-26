@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyay Sahyog</title>
+</head>
+<style>
+    /* Nav bar styling */
+    .nav-bar {
+        height: 100%;
+        background-color: #5392ec;
+        color: #dcf2ff;
+        padding: 50px;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .nav-bar a:hover {
+        background-color: #6b8bff;
+    }
+
+    /* Left-aligned logo */
+    .nav-bar .logo {
+        float: left;
+    }
+
+    /* Right-aligned links and search bar */
+    .nav-bar .nav-links {
+        float: right;
+    }
+
+    .nav-bar .search-bar {
+        float: right;
+        margin-right: 10px;
+    }
+
+    .nav-bar .search-bar input {
+        width: 200px;
+        height: 25px;
+        border: 1px solid #2a63ff;
+        padding: 5px;
+    }
+
+    .nav-bar .search-bar button {
+        width: 50px;
+        height: 35px;
+        padding: 3px;
+        background-color: #74e5ff;
+        border: none;
+        cursor: pointer;
+    }
+
+    .contact-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        user-select: none;
+        background-color: #007bff;
+        border: 1px solid #007bff;
+        border-radius: 0.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+        padding: 0.25rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #fff;
+        margin: 15px;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    /* .bottom-bar {
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        background-color: #70c3ff;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    } */
+
+    .bottom-bar {
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        background-color: #5392ec;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        /* border-top: 1px solid #fff; */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .bottom-bar a {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .bottom-bar a:hover {
+        color: #ccc;
+    }
+</style>
+
+<body>
+    <div>
+        <nav class="nav-bar">
+
+            <!-- Logo -->
+            <div class="logo">
+                <h1>NYAY SAHYOG</h1>
+            </div>
+
+            <!-- Links and search bar -->
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Help Desk</a>
+
+                <!-- Search bar -->
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><i class="fa fa-search">Go</i></button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div style="display: flex;">
+        <div style="flex: 1; margin: auto;">
+            <h2>Description</h2>
+            <p style="clear: both;">
+                This is Mark Anthony. Mark Anthony is a lawyer. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sequi autem voluptatum consequuntur, praesentium perferendis soluta qui accusamus facere sed fugiat
+                explicabo, sit voluptatem tempore obcaecati esse dolorem quae dicta. Nihil! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Repudiandae ipsam facere alias aut ratione delectus saepe tenetur quod
+                minus temporibus, esse maxime animi tempore modi ab magni, repellat porro rerum.
+            </p>
+            <div class="contact-buttons">
+                <a href="tel:+9199XXX XXXXX" class="btn btn-primary">Call</a>
+                <a href="mailto:rekhagupta@gmaiil.com" class="btn btn-primary">Email</a>
+            </div>
+
+        </div>
+        <div style="flex: 1;">
+            <img src="lawyer-portrait-his-studio_53419-9256.webp" alt="profile-picture" style="height: 280px;">
+            <p>
+                <h3>
+                    <b>Mark Anthony</b>
+                </h3>
+                </p>
+            <img src="https://t3.ftcdn.net/jpg/05/40/06/92/360_F_540069216_AiqmGY0nEt8IhFgjIoCG11IVQG3IoobK.jpg" height="90px">
+            <p>7+ Years</p>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+</body>
+
+</html>
