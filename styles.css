@@ -48,7 +48,7 @@ header {
 }
 
 .navbar a:hover {
-    background-color: #555;
+    background-color: #6b8bff;
 }
 
 .form-inline {
@@ -205,7 +205,7 @@ flex-container {
     position: fixed;
     bottom: 10px;
     width: 100%;
-    background-color: #5392ec;
+    background-color: #0D6EFD;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -250,7 +250,7 @@ flex-container {
 
 .nav-bar {
     height: 100%;
-    background-color: #5392ec;
+    background-color: #0D6EFD;
     color: #dcf2ff;
     padding: 50px;
 }
