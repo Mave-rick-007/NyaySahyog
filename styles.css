@@ -310,11 +310,15 @@ flex-container {
     margin: 0 0px ;
 }
 
+.contact-buttons a {
+    margin-top: 10px;
+    margin-left: 60px;
+    text-align: center;
+}
+
 .product-name a {
     text-decoration: none
 }
-
-
 
 .login-page {
     display: flex; 
@@ -451,6 +455,10 @@ text-align: center;
     font-weight: 600; 
 }
 
+.btn a {
+    text-decoration: none;
+}
+
 .signup-link {
     margin: 20px 0 10px; 
     text-align: center; 
@@ -465,4 +473,55 @@ text-align: center;
 
 .signup-link a:hover { 
     text-decoration: underline; 
+}
+
+footer{
+    background: #0D6EFD;
+    padding: 15px 23px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.rate {
+    float: left;
+    height: 45px;
+    padding: 0 10px;
+    margin-left: 320px;
+}
+
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
 }

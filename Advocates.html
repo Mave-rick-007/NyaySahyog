@@ -16,52 +16,27 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand mr-auto" href="#">NYAY SAHYOG</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Advocates.html">Advocates</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="profile.html">Register</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Login.html">Login</a>
-                        </li>
-                    </ul>
+        <nav class="nav-bar">
 
-                    <form class="form-inline my-2 my-lg-0">
-                        <input
-                            class="form-control mr-2"
-                            type="search"
-                            placeholder="Search"
-                            aria-label="Search"
-                        />
-                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
-                            Go
-                        </button>
-                    </form>
+            <!-- Logo -->
+            <div class="logo">
+                <h1 style="font-size: xx-large;">NYAY SAHYOG</h1>
+            </div>
+
+            <!-- Links and search bar -->
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="Advocates.html">Advocates</a>
+                <a href="profile.html">Register</a>
+                <a href="Login.html">Login</a>
+
+                <!-- Search bar -->
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><i class="fa fa-search">Go</i></button>
                 </div>
             </div>
         </nav>
-    </header>
 
     <section class="services">
         <div class="container">
@@ -145,75 +120,8 @@
 
     </section>
 
-    <footer class="bg-primary text-white text-center py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="feature">
-                        <div
-                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-                        >
-                            <svg class="bi" width="1em" height="1em">
-                                <use xlink:href="#collection"></use>
-                            </svg>
-                        </div>
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                        <p>
-                            Paragraph of text beneath the heading to explain the heading.
-                            We'll add onto it with another sentence and probably just keep
-                            going until we run out of words.
-                        </p>
-                        <a href="#" class="icon-link">
-                            Call to action
-                            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature">
-                        <div
-                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-                        >
-                            <svg class="bi" width="1em" height="1em">
-                                <use xlink:href="#people-circle"></use>
-                            </svg>
-                        </div>
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                        <p>
-                            Paragraph of text beneath the heading to explain the heading.
-                            We'll add onto it with another sentence and probably just keep
-                            going until we run out of words.
-                        </p>
-                        <a href="#" class="icon-link">
-                            Call to action
-                            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature">
-                        <div
-                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-                        >
-                            <svg class="bi" width="1em" height="1em">
-                                <use xlink:href="#toggles2"></use>
-                            </svg>
-                        </div>
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                        <p>
-                            Paragraph of text beneath the heading to explain the heading.
-                            We'll add onto it with another sentence and probably just keep
-                            going until we run out of words.
-                        </p>
-                        <a href="#" class="icon-link">
-                            Call to action
-                            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <p>&copy; 2023 Government of India</p>
+    <footer>
+        <span><a>Nyay Sahyog &copy; 2023</a> | <span class="far fa-copyright"></span> All rights reserved.</span>
     </footer>
 
     <script
